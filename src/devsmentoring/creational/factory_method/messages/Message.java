@@ -2,7 +2,7 @@ package devsmentoring.creational.factory_method.messages;
 
 public abstract class Message {
     static int counter = 0;
-    int id;
+    protected int id;
 
     Message(){
         this.id = Message.counter;
